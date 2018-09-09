@@ -20,9 +20,9 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
 
       $scope.listings.newCode = '';
       $scope.listings.newName = '';
-      $scope.listings.coordinates.latitude = '';
-      $scope.listings.coordinates.longitude = '';
-      $scope.listings.address = '';
+      $scope.listings.newLatitude = '';
+      $scope.listings.newLongitude = '';
+      $scope.listings.newAddress = '';
     };
     $scope.deleteListing = function(index) {
       var removeObj = $scope.listings.indexOf(index);
