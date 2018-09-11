@@ -29,7 +29,7 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
       $scope.listings.splice(removeObj, 1);
     };
     $scope.showDetails = function(index) {
-      $scope.detailedInfo = $scope.listings[$scope.listings.indexOf(index)];
+      $scope.detailedInfo = index;
     };
   }
 ]);
