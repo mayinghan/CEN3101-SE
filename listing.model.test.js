@@ -1,6 +1,8 @@
 var should = require('should'), 
     mongoose = require('mongoose'), 
     Listing = require('./ListingSchema'), 
+    JSONtoMongo = require('./JSONtoMongo'),
+    queries = require('./queries');
     config = require('./config');
 
 var listing, id;
